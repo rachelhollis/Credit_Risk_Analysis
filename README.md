@@ -75,3 +75,7 @@ Models to use and evaluate:
 - Precision for low risk: 100%
 - Recall for high risk: 91%
 - Recall for low risk: 94%
+
+## Summary
+
+Every model returns very low precision in predicting a high credit risk. For the first four models it is evident that the resampling attempted to address the imbalance in classes of high risk and low risk, however could not guarantee better results. The models remain weak in determining high credit risk with low precision, recall, and accuracy. However, the Ensemble models brought significant improvement particularly for the sensitivity for high risk. The EasyEnsembleClassifier model provided a high accuracy of 92.5% as well as high sensitivity for high and low risk credits (91% and 94% respectively).
